@@ -14,7 +14,7 @@ public class RestApi {
 
 
     @GetMapping("/arbitre")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherArbitre() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -37,7 +37,7 @@ public class RestApi {
     }
 
     @GetMapping("/entraineur")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherEntraineur() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -60,7 +60,7 @@ public class RestApi {
     }
 
     @GetMapping("/equipe")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherEquipe() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -83,7 +83,7 @@ public class RestApi {
     }
 
     @GetMapping("/evenement")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherEvent() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -106,7 +106,7 @@ public class RestApi {
     }
 
     @GetMapping("/joueur")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherJoueur() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -129,7 +129,7 @@ public class RestApi {
     }
 
     @GetMapping("/match")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherMatch() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -152,7 +152,7 @@ public class RestApi {
     }
 
     @GetMapping("/pays")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherPays() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -176,7 +176,7 @@ public class RestApi {
 
 
     @GetMapping("/sport")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherSport() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -200,7 +200,7 @@ public class RestApi {
 
 
     @GetMapping("/stade")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherStade() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -223,7 +223,7 @@ public class RestApi {
     }
 
     @GetMapping("/supporteur")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherSupporteur() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -246,7 +246,7 @@ public class RestApi {
     }
 
     @GetMapping("/trophee")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherTrophee() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -269,7 +269,7 @@ public class RestApi {
     }
 
     @GetMapping("/ville")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherVille() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -294,7 +294,7 @@ public class RestApi {
 
 
     @GetMapping("/relationarbitrematch")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation1() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -319,7 +319,7 @@ public class RestApi {
 
 
     @GetMapping("/relationteamtrophee")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation2() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -342,7 +342,7 @@ public class RestApi {
     }
 
     @GetMapping("/relationeventcountry")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation3() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -368,7 +368,7 @@ public class RestApi {
 
 
     @GetMapping("/relationpayssport")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation8() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -391,7 +391,7 @@ public class RestApi {
     }
 
     @GetMapping("/relationjoueursuppouteur")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation9() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -415,7 +415,7 @@ public class RestApi {
 
 
     @GetMapping("/relationequipejoueur")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation10() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -439,7 +439,7 @@ public class RestApi {
 
 
     @GetMapping("/relationequipesupporteur")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation11() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -463,7 +463,7 @@ public class RestApi {
 
 
     @GetMapping("/relationstadevillematch")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation12() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -486,7 +486,7 @@ public class RestApi {
     }
 
     @GetMapping("/relationeventvillepays")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation13() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -509,7 +509,7 @@ public class RestApi {
     }
 
     @GetMapping("/relationsportpays")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation14() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -533,7 +533,7 @@ public class RestApi {
 
 
     @GetMapping("/relationentraineurequipe")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation15() {
         String NS = "";
         // lire le model a partir d'une ontologie
@@ -557,7 +557,7 @@ public class RestApi {
 
 
     @GetMapping("/relationmatchequipeeventstade")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public String afficherRelation16() {
         String NS = "";
         // lire le model a partir d'une ontologie
