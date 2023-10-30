@@ -20,6 +20,9 @@
      -->
 
     
+     <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_1">
+           <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4"/>
+     </rdf:Description>
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#aDesJoueurs -->
