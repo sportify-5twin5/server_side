@@ -1,0 +1,12 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX untitled-ontology-2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?joueur ?nom_joueur ?Nationalité ?dateDeNaissance ?poid ?taille
+WHERE {
+  ?joueur rdf:type untitled-ontology-2:Joueur.
+  ?joueur untitled-ontology-2:nom_joueur ?nom_joueur.
+  ?joueur untitled-ontology-2:Nationalité ?Nationalité.
+  ?joueur untitled-ontology-2:dateDeNaissance ?dateDeNaissance.
+  ?joueur untitled-ontology-2:poid ?poid.
+  ?joueur untitled-ontology-2:taille ?taille.
+}

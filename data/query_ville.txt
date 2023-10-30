@@ -1,0 +1,10 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX untitled-ontology-2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?ville ?nomVille ?Population ?Superficie
+WHERE {
+  ?ville rdf:type untitled-ontology-2:Ville.
+  ?ville untitled-ontology-2:nomVille ?nomVille.
+  ?ville untitled-ontology-2:Population ?Population.
+  ?ville untitled-ontology-2:Superficie ?Superficie.
+}

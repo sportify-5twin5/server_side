@@ -1,0 +1,10 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX untitled-ontology-2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?stade ?lieuStade ?capaciteStade ?nomStade
+WHERE {
+  ?stade rdf:type untitled-ontology-2:Stade.
+  ?stade untitled-ontology-2:Lieu_Stade ?lieuStade.
+  ?stade untitled-ontology-2:capacitéStade ?capaciteStade.
+  ?stade untitled-ontology-2:nomStade ?nomStade.
+}

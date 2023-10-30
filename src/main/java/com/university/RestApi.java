@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class RestApi {
+    Model model = JenaEngine.readModel("data/WebSemantiiique.rdf");
 
-    Model model = JenaEngine.readModel("data/university.owl");
 
-    @GetMapping("/batiment")
+    @GetMapping("/arbitre")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherBatiment() {
+    public String afficherArbitre() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -26,7 +26,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Batiment.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_arbitre.txt");
             System.out.println(res);
             return res.toString();
 
@@ -36,9 +36,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/batimentTriByEtage")
+    @GetMapping("/entraineur")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherBatimentTriByEtage() {
+    public String afficherEntraineur() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -49,7 +49,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_BatimentOrderByEtage.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_entreneur.txt");
             System.out.println(res);
             return res.toString();
 
@@ -59,9 +59,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/batimentTriByNom")
+    @GetMapping("/equipe")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherBatimentTriByNom() {
+    public String afficherEquipe() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -72,7 +72,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_BatimentOrderByNom.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_equipe.txt");
             System.out.println(res);
             return res.toString();
 
@@ -82,9 +82,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/classe")
+    @GetMapping("/evenement")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherClasse() {
+    public String afficherEvent() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -95,7 +95,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Classe.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_evenemnt.txt");
             System.out.println(res);
             return res.toString();
 
@@ -105,9 +105,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/classeTriNom")
+    @GetMapping("/joueur")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherClasseTriNom() {
+    public String afficherJoueur() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -118,7 +118,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Classe_TriNom.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_joueur.txt");
             System.out.println(res);
             return res.toString();
 
@@ -128,9 +128,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/classeTriNombreEtudiants")
+    @GetMapping("/match")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherClasseTriNombreEtudiants() {
+    public String afficherMatch() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -141,7 +141,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Classe_TriNombreEtudiants.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_match.txt");
             System.out.println(res);
             return res.toString();
 
@@ -151,9 +151,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/etudiant")
+    @GetMapping("/pays")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherEtudiant() {
+    public String afficherPays() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -164,7 +164,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Etudiant.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_pays.txt");
             System.out.println(res);
             return res.toString();
 
@@ -175,9 +175,9 @@ public class RestApi {
     }
 
 
-    @GetMapping("/etudianttri")
+    @GetMapping("/sport")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherEtudiantOrdered() {
+    public String afficherSport() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -188,7 +188,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_EtudiantOrderedBy.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_sport.txt");
             System.out.println(res);
             return res.toString();
 
@@ -199,9 +199,9 @@ public class RestApi {
     }
 
 
-    @GetMapping("/etudianttrinomcomplet")
+    @GetMapping("/stade")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherEtudiantOrderedNomComplet() {
+    public String afficherStade() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -212,7 +212,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_EtudiantOrderByAlphabetique.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_stade.txt");
             System.out.println(res);
             return res.toString();
 
@@ -222,9 +222,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/salle")
+    @GetMapping("/supporteur")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherSalle() {
+    public String afficherSupporteur() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -235,7 +235,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Salle.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_supporteur.txt");
             System.out.println(res);
             return res.toString();
 
@@ -245,9 +245,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/club")
+    @GetMapping("/trophee")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherClub() {
+    public String afficherTrophee() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -258,7 +258,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Club.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_trophee.txt");
             System.out.println(res);
             return res.toString();
 
@@ -268,9 +268,9 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/clubtri")
+    @GetMapping("/ville")
     @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherclubOrdered() {
+    public String afficherVille() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -281,7 +281,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_ClubTri.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_ville.txt");
             System.out.println(res);
             return res.toString();
 
@@ -291,28 +291,6 @@ public class RestApi {
         }
     }
 
-    @GetMapping("/clubtrinom")
-    @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherclubOrderedNomComplet() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_ClubTriNom.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
 
 
 

@@ -1,0 +1,10 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX untitled-ontology-2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?equipe ?budget ?effectif ?nomEquipe
+WHERE {
+  ?equipe rdf:type untitled-ontology-2:Équipe.
+  ?equipe untitled-ontology-2:budget_equipe ?budget.
+  ?equipe untitled-ontology-2:effectif_equipe ?effectif.
+  ?equipe untitled-ontology-2:nomÉquipe ?nomEquipe.
+}
