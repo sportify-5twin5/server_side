@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ontology: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?stadium ?city
+WHERE {
+  ?stadium rdf:type ontology:Stade .
+  ?city rdf:type ontology:Ville .
+  ?stadium ontology:situéÀVille ?city .
+}

@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:untitled-ontology-2="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2"/>
-    
+
 
 
     <!-- 
@@ -19,10 +19,113 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
+
+
+
+
+
+
+
      <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_1">
            <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4"/>
      </rdf:Description>
+
+
+
+  <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aGagnéTrophée -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aGagnéTrophée">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Équipe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aLieuDansPays -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aLieuDansPays">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Événement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pays"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aPourPratiquants -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aPourPratiquants">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Sport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Joueur"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aÉtéDécernéÀÉvénement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#aÉtéDécernéÀÉvénement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Événement"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#originaireDeVille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#originaireDeVille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Ville"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Joueur"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#situéÀVille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#situéÀVille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Ville"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#sportPratiquéDansPays -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#sportPratiquéDansPays">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pays"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Sport"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#supporteJoueur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/masmoudi/ontologies/2023/9/untitled-ontology-5#supporteJoueur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Joueur"/>
+    </owl:ObjectProperty>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#aDesJoueurs -->

@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ontology: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?supporter ?player
+WHERE {
+  ?supporter rdf:type ontology:Supporter .
+  ?player rdf:type ontology:Joueur .
+  ?supporter ontology:supporteJoueur ?player .
+}
