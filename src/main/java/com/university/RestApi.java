@@ -365,99 +365,6 @@ public class RestApi {
     }
 
 
-    @GetMapping("/relationsportjoueur")
-    @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherRelation4() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query4.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-
-    @GetMapping("/relationtropheeevent")
-    @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherRelation5() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query5.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-    @GetMapping("/relationjoueurvillle")
-    @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherRelation6() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query6.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-
-    @GetMapping("/relationstadeville")
-    @CrossOrigin(origins = "http://localhost:4200")
-    public String afficherRelation7() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query7.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
 
 
     @GetMapping("/relationpayssport")
@@ -483,7 +390,6 @@ public class RestApi {
         }
     }
 
-
     @GetMapping("/relationjoueursuppouteur")
     @CrossOrigin(origins = "http://localhost:4200")
     public String afficherRelation9() {
@@ -506,6 +412,173 @@ public class RestApi {
             return ("Error when reading model from ontology");
         }
     }
+
+
+    @GetMapping("/relationequipejoueur")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation10() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query10.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+
+    @GetMapping("/relationequipesupporteur")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation11() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query11.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+
+    @GetMapping("/relationstadevillematch")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation12() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query12.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+    @GetMapping("/relationeventvillepays")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation13() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query13.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+    @GetMapping("/relationsportpays")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation14() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query14.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+
+    @GetMapping("/relationentraineurequipe")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation15() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query15.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+
+    @GetMapping("/relationmatchequipeeventstade")
+    @CrossOrigin(origins = "http://localhost:4200")
+    public String afficherRelation16() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query16.txt");
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
 
 
 

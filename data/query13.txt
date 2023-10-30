@@ -1,0 +1,7 @@
+PREFIX ont2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?evenement ?ville ?pays
+WHERE {
+  ?evenement ont2:aLieuDansUneVille ?ville ;
+             ont2:aLieuDansPays ?pays .
+}

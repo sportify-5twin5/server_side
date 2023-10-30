@@ -1,0 +1,9 @@
+PREFIX ont2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
+
+SELECT ?match ?stade ?equipe ?evenement
+WHERE {
+  ?match a ont2:Match ;
+        ont2:aLieuDansUnStade ?stade ;
+        ont2:aÉtéGagnéParUneÉquipe ?equipe ;
+        ont2:faitPartieDUnÉvénement ?evenement .
+}

@@ -1,6 +1,6 @@
 PREFIX ont2: <http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#>
 
-SELECT ?joueur ?supporteur
+SELECT ?pays ?sport
 WHERE {
-  ?supporteur ont2:supporteJoueur ?joueur.
+  ?pays ont2:sportPratiquéDansPays ?sport .
 }

@@ -11,6 +11,448 @@
 
 
 
+
+   <!-- Arbiter+Match -->
+
+
+   <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_1 -->
+
+
+   <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_1">
+              <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4"/>
+        </rdf:Description>
+
+   <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_2 -->
+
+       <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_2">
+           <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match1"/>
+       </rdf:Description>
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_3 -->
+
+       <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_3">
+           <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match5"/>
+       </rdf:Description>
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_4 -->
+
+       <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_4">
+           <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match3"/>
+       </rdf:Description>
+
+
+
+       <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_5 -->
+
+       <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_5">
+           <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match1"/>
+       </rdf:Description>
+
+
+
+   <!-- equipe+trophee -->
+
+
+   <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#equipe_1">
+            <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_1"/>
+      </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#equipe_2">
+            <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_2"/>
+   </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#equipe_3">
+            <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_3"/>
+   </rdf:Description>
+
+
+<!-- Pays+ sport-->
+
+
+<!-- Pay_1 -->
+<rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_1">
+    <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_1"/>
+</rdf:Description>
+
+<!-- Pay_2 -->
+<rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_2">
+    <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_2"/>
+</rdf:Description>
+
+<!-- Pay_3 -->
+<rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_3">
+    <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_3"/>
+</rdf:Description>
+
+<!-- Pay_4 -->
+<rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_4">
+    <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_4"/>
+</rdf:Description>
+
+<!-- Pay_5 -->
+<rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_5">
+    <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_5"/>
+</rdf:Description>
+
+
+
+
+
+
+
+<!-- Equipe-->
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_1">
+        <untitled-ontology-2:aDesJoueurs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_1"/>
+        <untitled-ontology-2:aPourEntraîneur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_1"/>
+        <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_1"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_2">
+        <untitled-ontology-2:aDesJoueurs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_2"/>
+        <untitled-ontology-2:aDesSupporters rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter2"/>
+        <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_3">
+        <untitled-ontology-2:aDesJoueurs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_3"/>
+        <untitled-ontology-2:aDesSupporters rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter2"/>
+        <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_3"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_4">
+        <untitled-ontology-2:aDesJoueurs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_4"/>
+        <untitled-ontology-2:aDesSupporters rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter4"/>
+        <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_5">
+        <untitled-ontology-2:aDesJoueurs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_5"/>
+        <untitled-ontology-2:aDesSupporters rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter5"/>
+        <untitled-ontology-2:aGagnéTrophée rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Trophée_5"/>
+    </rdf:Description>
+
+
+
+
+
+
+<!-- Evenement-->
+
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_1">
+        <untitled-ontology-2:aLieuDansUneVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_1"/>
+        <untitled-ontology-2:aLieuDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_1"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_2">
+        <untitled-ontology-2:aLieuDansUneVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_2"/>
+        <untitled-ontology-2:aLieuDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_3">
+        <untitled-ontology-2:aLieuDansUneVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_2"/>
+        <untitled-ontology-2:aLieuDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_3"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_4">
+        <untitled-ontology-2:aLieuDansUneVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_4"/>
+        <untitled-ontology-2:aLieuDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_5">
+        <untitled-ontology-2:aLieuDansUneVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_5"/>
+        <untitled-ontology-2:aLieuDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_5"/>
+    </rdf:Description>
+
+
+
+<!-- Supporter-->
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter1">
+        <untitled-ontology-2:supporteJoueur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_1"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter2">
+        <untitled-ontology-2:supporteJoueur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter3">
+        <untitled-ontology-2:supporteJoueur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_3"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter4">
+        <untitled-ontology-2:supporteJoueur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Supporter5">
+        <untitled-ontology-2:supporteJoueur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#joueur_5"/>
+    </rdf:Description>
+
+
+
+
+
+<!-- Stade-->
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_1">
+        <untitled-ontology-2:accueilleDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match2"/>
+        <untitled-ontology-2:situéÀVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_1"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_2">
+        <untitled-ontology-2:aLieuDansUnStade rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_2"/>
+        <untitled-ontology-2:accueilleDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match3"/>
+        <untitled-ontology-2:situéÀVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_3"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_3">
+        <untitled-ontology-2:accueilleDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match1"/>
+        <untitled-ontology-2:accueilleDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match2"/>
+        <untitled-ontology-2:situéÀVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_4">
+        <untitled-ontology-2:accueilleDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match5"/>
+        <untitled-ontology-2:situéÀVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_5"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_5">
+        <untitled-ontology-2:accueilleDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4"/>
+        <untitled-ontology-2:situéÀVille rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#ville_4"/>
+    </rdf:Description>
+
+
+
+
+<!-- Pays-->
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_1">
+        <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_1"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_2">
+        <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_3">
+        <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_3"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_4">
+        <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Pay_5">
+        <untitled-ontology-2:sportPratiquéDansPays rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#sport_5"/>
+    </rdf:Description>
+
+
+
+<!-- Entraineur-->
+
+
+  <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_1">
+        <untitled-ontology-2:aPourEntraîneur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_2">
+        <untitled-ontology-2:aPourEntraîneur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_1"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_3">
+        <untitled-ontology-2:aPourEntraîneur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_4">
+        <untitled-ontology-2:aPourEntraîneur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_5"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Entraineur_5">
+        <untitled-ontology-2:aPourEntraîneur rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_3"/>
+    </rdf:Description>
+
+
+
+
+<!-- Match-->
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match1">
+        <untitled-ontology-2:aLieuDansUnStade rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_1"/>
+        <untitled-ontology-2:aÉtéGagnéParUneÉquipe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_1"/>
+        <untitled-ontology-2:faitPartieDUnÉvénement rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match2 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match2">
+        <untitled-ontology-2:aLieuDansUnStade rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_2"/>
+        <untitled-ontology-2:aÉtéGagnéParUneÉquipe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_3"/>
+        <untitled-ontology-2:faitPartieDUnÉvénement rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_2"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match3 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match3">
+        <untitled-ontology-2:aLieuDansUnStade rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_4"/>
+        <untitled-ontology-2:aÉtéGagnéParUneÉquipe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_2"/>
+        <untitled-ontology-2:faitPartieDUnÉvénement rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_5"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4">
+        <untitled-ontology-2:aLieuDansUnStade rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_3"/>
+        <untitled-ontology-2:aÉtéGagnéParUneÉquipe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_5"/>
+        <untitled-ontology-2:faitPartieDUnÉvénement rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_3"/>
+        <untitled-ontology-2:participeÀDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4"/>
+    </rdf:Description>
+
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match5 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match5">
+        <untitled-ontology-2:aLieuDansUnStade rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Stade_5"/>
+        <untitled-ontology-2:aÉtéGagnéParUneÉquipe rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Equipe_4"/>
+        <untitled-ontology-2:faitPartieDUnÉvénement rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Evenement_5"/>
+    </rdf:Description>
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -18,18 +460,6 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-
-
-
-
-
-
-
-
-
-     <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbiter_1">
-           <untitled-ontology-2:dirigeDesMatchs rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Match4"/>
-     </rdf:Description>
 
 
 
@@ -1141,6 +1571,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2023/9/untitled-ontology-2#Arbitre"/>
         <untitled-ontology-2:nomArbitre>John Smith</untitled-ontology-2:nomArbitre>
         <untitled-ontology-2:nombre_match_arbitre rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</untitled-ontology-2:nombre_match_arbitre>
+
     </owl:NamedIndividual>
     
 
